@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-  <title>Pizza</title>
+  <title>Listado de suscripciones</title>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" href="style.css" />
