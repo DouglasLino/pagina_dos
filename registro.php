@@ -31,6 +31,7 @@ if (isset($_POST['register'])){
            </script>
         <?php
     }
+    header('Location: listado.php');
 }
 
 

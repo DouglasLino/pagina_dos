@@ -51,7 +51,7 @@
       </header>
 
       <!-- Photo Grid -->
-      <div class=" w3-center " >
+      <div class=" w3-center " style="padding-bottom: 100px;">
         
         <?php
             include("mostrar_listado.php");
@@ -63,27 +63,7 @@
 
         
       </div>
-      <!-- formulario -->
-
-      <div class="w3-content w3-panel w3-center " style="max-width: 1500px; padding-top:100px;">
-        <h1 class="w3-xlarge">¡Suscribete!</h1>
-
-        
-
-        <div class="container">
-          <form method="post">
-            
-            <input type="text" name="name" placeholder="Nombre completo">
-        
-            <input type="email"  name="email" placeholder="Correo electronico">
-        
-            <input type="submit" name="register">
-          </form>
-         <?php
-            include("registro.php")
-         ?>
-        </div>
-      </div>
+       
 
       <!-- End Page Content -->
     </div>
