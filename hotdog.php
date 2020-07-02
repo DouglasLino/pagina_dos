@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-  <title>Pizza</title>
+  <title>Hot Dog</title>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" href="style.css" />
@@ -38,11 +38,13 @@
 
         <div class="w3-padding-32">
           <div class="w3-bar w3-border">
-            <a href="index.html" class="w3-bar-item w3-button">Hamburguesa</a>
-            <a href="hotdog.html" class="w3-bar-item w3-button w3-light-grey"
+          <a href="index.php" class="w3-bar-item w3-button">Hamburguesa</a>
+            <a href="hotdog.php" class="w3-bar-item w3-button w3-light-grey"
               >Hot Dog</a
             >
-            <a href="pizza.html" class="w3-bar-item w3-button">Pizza</a>
+            <a href="pizza.php" class="w3-bar-item w3-button">Pizza</a>
+            <a href="listado.php" class="w3-bar-item w3-button w3-light-grey"
+              >Listado de suscripciones</a>
              
           </div>
         </div>
@@ -51,18 +53,40 @@
       <!-- Photo Grid -->
       <div class="w3-row-padding " style="margin-bottom: 128px;">
         <div class="w3-half">
-          <img src="img/pizza/1.png" style="width: 100%;" />
-          <img src="img/pizza/2.jpg" style="width: 100%;" />
-          <img src="img/pizza/3.jpg" style="width: 100%;" />
+          <img src="img/hotdog/1.jpg" style="width: 100%;" />
+          <img src="img/hotdog/2.jpg" style="width: 100%;" />
+          <img src="img/hotdog/3.jpg" style="width: 100%;" />
           
         </div>
 
         <div class="w3-half">
           
-          <img src="img/pizza/4.jpg" style="width: 100%;" />
-          <img src="img/pizza/5.jpg" style="width: 100%;" />
-          <img src="img/pizza/6.jpg" style="width: 100%;" />
+          <img src="img/hotdog/4.jpg" style="width: 100%;" />
+          <img src="img/hotdog/5.jpg" style="width: 100%;" />
+          <img src="img/hotdog/6.jpg" style="width: 100%;" />
           
+        </div>
+      </div>
+
+      <!-- formulario -->
+
+      <div class="w3-content w3-panel w3-center " style="max-width: 1500px;">
+        <h1 class="w3-xlarge">¡Suscribete!</h1>
+
+        
+
+        <div class="container">
+          <form method="post">
+            
+            <input type="text" name="name" placeholder="Nombre completo">
+        
+            <input type="email"  name="email" placeholder="Correo electronico">
+        
+            <input type="submit" name="register">
+          </form>
+         <?php
+            include("registro.php")
+         ?>
         </div>
       </div>
 
